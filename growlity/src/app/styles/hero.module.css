@@ -1,0 +1,53 @@
+.hero {
+    background: radial-gradient(76.4% 39.98% at 71.7% 68.54%, #C3DDCE 9.6%, #3A7768 100%);
+    padding-bottom: 0;
+}
+.hero_main {
+    display: flex;
+    background-image: url(../../../public/world.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.hero_left {
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.hero_left h2 {
+    text-align: start;
+    color: #FFF;
+    
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 1rem;
+}
+
+.hero_left p {
+    width: 85%;
+    text-align: start;
+    color: #FFF;
+    
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 1.875rem;
+}
+
+.l_more {
+    margin: 6.06rem 0 2rem 14.19rem;
+}
+
+.hero_right {
+    width: 55%
+}
+
+.hero_right Image {
+    width: 100%;
+    flex-shrink: 0;
+}

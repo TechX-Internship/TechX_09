@@ -1,0 +1,12 @@
+.our_client_head{
+    margin-bottom: 2.69rem;
+}
+.c_links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    cursor: pointer;
+}

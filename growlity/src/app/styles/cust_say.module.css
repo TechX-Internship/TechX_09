@@ -1,0 +1,68 @@
+.cust_say {
+    background-image: url(../../../public/cust_say.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cust_say_title {
+    color: #FFF;
+    
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 0.62rem;
+}
+
+.Cust_say_disc {
+    color: #FCFCFC;
+    text-align: center;
+    
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5125rem;
+    margin: 0 11.44rem 5.56rem;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 4.69rem;
+}
+
+.pagination span {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 2px solid white;
+    border-radius: 50%
+}
+
+.forword {
+    position: relative;
+    margin-right: 10px;
+    box-shadow: 0 40px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.forword i {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: -4px;
+    left: 4px;
+}
+
+.backword {
+    position: relative;
+    margin-left: 10px;
+    box-shadow: 0 40px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.backword i {
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: -4px;
+    right: 4px;
+}

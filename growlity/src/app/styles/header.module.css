@@ -1,0 +1,58 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    flex-shrink: 0;
+}
+
+.icon image {
+    width: 4.8125rem;
+    height: 4.25rem;
+    flex-shrink: 0;
+}
+
+.nav_list li {
+    display: inline-block;
+    margin: 0 1.563rem;
+    color: #7F7F7F;
+    
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5625rem;
+}
+.nav_home{
+    color: #333 !important;
+    
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5625rem;
+    position: relative;
+}
+
+.nav_home::before{
+    content: "";
+    border: 2px solid #333;
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    width: 50%;
+    
+}
+
+.contact_us {
+    color: #FFF;
+    
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    width: 11.25rem;
+    height: 3.0625rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #397768;
+    box-shadow: 0px 0px 134px 0px rgba(0, 0, 0, 0.15);
+}

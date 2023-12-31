@@ -1,0 +1,53 @@
+.get_in_touch {
+    background-image: url(../../../public/get_in_touch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gt_right_data_head{
+    margin-bottom: 1rem;
+}
+.gt_left{
+    width: 100%;
+}
+.gt_right{
+    width: 100%;
+    padding: 4.70rem 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.10);
+}
+.gt_right_data{
+    padding: 3.25rem;
+}
+.form{
+    width: 100%;
+    margin-bottom: 1.88rem;
+}
+/* Form Name */
+.form :nth-child(1){
+    width: 100%;
+    margin-bottom: 1.25rem;
+}
+/* Form Email-ID */
+.form :nth-child(2){
+    width: 49%;
+    margin-right: 0.70rem;
+}
+
+/* Form Contact */
+.form :nth-child(3){
+    width: 49%;
+}
+
+/* Form Contact */
+.form :nth-child(4){
+    width: 100%;
+    margin-top: 1.25rem;
+}
+
+.form input,
+.form textarea{
+    padding: 0 1.88rem;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    outline: none;
+}

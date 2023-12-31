@@ -1,0 +1,56 @@
+.glob_team_head{
+    margin-bottom: 0.94rem;
+}
+.glob_card_box{
+    margin: 3.13rem 0;
+    padding: 4.20rem 6.25rem 4.20rem 12.63rem;
+    border-radius: 12px;
+    background-image: url(../../../public/our_globle_team.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.g_card {
+    width: 49%;
+    padding: 1.25rem;
+    border-radius: 12px;
+    background-color: #FFF;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.10);
+}
+
+.g_card_img {
+    width: 8.0625rem;
+    height: 8.0625rem;
+    border-radius: 50%;
+}
+.g_card_data{
+    width: 100%;
+}
+.g_card_data h2 {
+    color: #397768;
+    
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0.5rem;
+}
+
+.g_card_data span {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.g_card_data p {
+    color: #565656;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1rem;
+}

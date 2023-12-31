@@ -1,0 +1,32 @@
+.our_services_title {
+    text-align: center;
+    color: #397768;
+    
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.our_services_title_h2 {
+    position: relative;
+    display: inline-block;
+    color: #397768;
+    
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* OUR SERVICES DATA*/
+.our_services_disc {
+    color: #7F7F7F;
+    text-align: center;
+    
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0.94rem 14.19rem 3.17rem;
+}

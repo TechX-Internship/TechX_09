@@ -1,0 +1,53 @@
+
+.cust {
+    width: 100%;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 12px;
+    fill: rgba(255, 255, 255, 0.13);
+    stroke-width: 3px;
+    stroke: rgba(255, 255, 255, 0.77);
+    backdrop-filter: blur(10px);
+    padding: 4.87rem 0.56rem 1.5rem;
+    position: relative;
+}
+
+.cust_img {
+    width: 5.5rem;
+    height: 5.5rem;
+    flex-shrink: 0;
+    position: absolute;
+    top: -2.75rem;
+    left: calc(50% - 5.5rem/2);
+}
+
+.cust_words {
+    color: #FFF;
+    text-align: center;
+    
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 1.87rem;
+}
+
+.cust_name {
+    color: #FFF;
+    text-align: center;
+    
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cust_position {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.6375rem;
+}

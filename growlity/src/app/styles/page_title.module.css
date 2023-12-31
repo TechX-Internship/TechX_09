@@ -1,0 +1,16 @@
+.page_title{
+    background: radial-gradient(76.4% 39.98% at 71.7% 68.54%, #71A085 9.6%, #3A7768 100%);
+    padding-bottom: 0;
+}
+.page_title_container{
+    background-image: url(../../../public/world.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.page_title_h2{
+    padding: 3.60rem 0 8.60rem;
+}
+.h2_data{
+    color: white;
+}

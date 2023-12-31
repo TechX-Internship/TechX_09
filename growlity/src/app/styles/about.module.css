@@ -1,0 +1,14 @@
+.about {
+    background-image: url(../../../public/About.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about_disc {
+    color: #727272;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    margin: 1.25rem 0;
+}

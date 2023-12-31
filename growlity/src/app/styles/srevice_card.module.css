@@ -1,0 +1,32 @@
+.service_card span {
+    display: inline-block;
+    color: #397768;
+    
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 1.85rem 0 3rem 6.56rem;
+}
+.service_card p {
+    color: #7F7F7F;
+    
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 1.25rem 1.25rem;
+}
+.service_card{
+    width: 100%;
+    position: relative;
+    background-image: url(../../../public/Service_card.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+.service_card_img{
+    position: absolute;
+    top: 8%;
+    left: 4%;
+}

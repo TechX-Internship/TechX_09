@@ -1,0 +1,57 @@
+.footer {
+    background: #333;
+    padding: 3.15rem;
+}
+
+.img {
+    width: 7.0625rem;
+    height: 6.1875rem;
+    flex-shrink: 0;
+}
+
+.location_data span,
+.phone_data span {
+    display: block;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.add_2 {
+    display: block;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0.63rem;
+}
+.footer_right{
+    gap: 9.19rem;
+}
+.foot_parts h2 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 1.25rem;
+}
+
+.foot_parts li,
+.foot_parts p {
+    color: #B9B9B9;
+    font-family: Roboto;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.s_media{
+    gap: 0.94rem;
+}

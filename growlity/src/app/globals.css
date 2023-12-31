@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1440px;
+  width: 1440px;
+  margin: auto;
+}
+
+section{
+  margin: 0 0 2.5rem 0;
+  padding: 5rem 0 2.5rem 0;
+}
+
+.bdr{
+  border: 1px solid red;
+}
+
+.bdrb{
+  border: 1px solid black;
+}

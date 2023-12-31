@@ -1,0 +1,20 @@
+.section_title_h2 {
+    position: relative;
+    display: inline-block;
+    color: #397768;
+    
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section_title_img {
+    width: 3.625rem;
+    height: 3.625rem;
+    transform: rotate(15.185deg);
+    flex-shrink: 0;
+    position: absolute;
+    top: -50%;
+    right: calc(0% - (3.625rem));
+}
