@@ -4,9 +4,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import go_ahead from '../../../public/go_ahead.svg' 
 
-const Blog_data = ({index, title, disc}) => {
+const Blog_data = ({index, title, disc, isClass}) => {
     return (
-        <div className={style.blog_1}>
+        <div className={`${isClass ? style.blog_2 : style.blog_1}`}>
             <div className={`${style.blog_data} ${style.blog_1_data}`}>
                 <h2>{index}</h2>
                 <span>{title}</span>
