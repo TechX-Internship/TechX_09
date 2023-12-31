@@ -8,14 +8,14 @@ import Page_title from '../componants/Page_title'
 
 const page = () => {
     return (
-        <div>
+        <main>
             <Page_title heading={"Our client"} isWhite={true}/>
             <Our_client />
             <Cust_say />
             <Our_blog />
             <FAQ />
             <Get_in_touch />
-        </div>
+        </main>
     )
 }
 

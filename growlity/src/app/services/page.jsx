@@ -9,7 +9,7 @@ import Our_services from '../componants/Our_services'
 
 const page = () => {
     return (
-        <div>
+        <main>
             <Page_title heading={"Services"} isWhite={true}/>
             <Our_services/>
             <Cust_say />
@@ -17,7 +17,7 @@ const page = () => {
             <Our_blog />
             <FAQ />
             <Get_in_touch />
-        </div>
+        </main>
     )
 }
 
