@@ -8,6 +8,7 @@ import s_media_1 from '../../../public/s_media_1.png'
 import s_media_2 from '../../../public/s_media_2.png'
 import s_media_3 from '../../../public/s_media_3.png'
 import s_media_4 from '../../../public/s_media_4.png'
+import foot from '../../../public/foot.png'
 
 const Footer = () => {
     return (
@@ -26,7 +27,7 @@ const Footer = () => {
                                 <span>SHERIDAN, WY 82801, USA</span>
                             </div>
                         </div>
-                        <div className={`d-flex m-3 ${style.phone}`}>
+                        <div className={`d-flex mt-3 mx-3 mb-5 ${style.phone}`}>
                             <div className={`me-3`}>
                                 <Image src={phone} alt="" />
                             </div>
@@ -77,6 +78,10 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
+                    <Image className={`${style.foot_ab}`} src={foot} alt="" />
+                </div>
+                <div className={`${style.copy_right}`}>
+                    <h2>© 2021 All Rights Reserved</h2>
                 </div>
             </div>
         </section>

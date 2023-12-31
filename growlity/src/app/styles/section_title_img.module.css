@@ -15,6 +15,6 @@
     transform: rotate(15.185deg);
     flex-shrink: 0;
     position: absolute;
-    top: -50%;
-    right: calc(0% - (3.625rem));
+    top: -20px;
+    right: calc(0% - (2.75rem));
 }

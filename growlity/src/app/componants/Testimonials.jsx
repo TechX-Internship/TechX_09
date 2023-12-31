@@ -10,8 +10,6 @@ const Testimonials = ({img, disc, name, post}) => {
             <h2 className={`${style.cust_name}`}>{name}</h2>
             <span className={`${style.cust_position}`}>{post}</span>
         </div>
-
-      
     )
 }
 

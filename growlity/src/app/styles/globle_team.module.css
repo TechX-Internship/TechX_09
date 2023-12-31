@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.10);
 }
 .g_card {
     width: 49%;

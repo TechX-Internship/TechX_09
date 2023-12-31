@@ -1,6 +1,7 @@
 .footer {
     background: #333;
     padding: 3.15rem;
+    position: relative;
 }
 
 .img {
@@ -30,9 +31,20 @@
     line-height: normal;
     margin-bottom: 0.63rem;
 }
-.footer_right{
+
+.footer_right {
     gap: 9.19rem;
 }
+
+.foot_ab {
+    width: 52.4375rem;
+    height: 13.65763rem;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 .foot_parts h2 {
     color: #FFF;
     font-family: Roboto;
@@ -52,6 +64,20 @@
     font-weight: 400;
     line-height: normal;
 }
-.s_media{
+
+.s_media {
     gap: 0.94rem;
+}
+
+.copy_right {
+    padding-top: 1.25rem;
+    border-top: 1px solid #B9B9B9;
+}
+
+.copy_right {
+    color: var(--Cold-Grey-white, #FFF);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: normal;
 }

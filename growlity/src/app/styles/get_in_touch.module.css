@@ -14,6 +14,12 @@
     width: 100%;
     padding: 4.70rem 0;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.10);
+    position: relative;
+}
+.gt_right_leaf{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 .gt_right_data{
     padding: 3.25rem;
@@ -46,8 +52,9 @@
 
 .form input,
 .form textarea{
-    padding: 0 1.88rem;
-    border: 1px solid lightgray;
+    line-height: normal;
+    padding: 1rem 1.88rem;
+    border: 1px solid rgba(197, 197, 197, 0.25);
     border-radius: 4px;
     outline: none;
 }

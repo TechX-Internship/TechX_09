@@ -23,12 +23,7 @@ const Our_services = () => {
                     {<Section_title_img title={"Our Services"}/>}
                 </div>
                 <p className={`${style.our_services_disc} text-center`}>Our multidisciplinary teams can help companies understand the risks and opportunities arising from climate change and materiality issues to achieve growth wi th sustainability.</p>
-                <div className="d-flex gap-3">
-                    {/* <Service_card title='hello'/>
-                    <div className="col-3"></div>
-                    <div className="col-3"></div>
-                    <div className="col-3"></div> */}
-                    {
+                <div className="d-flex gap-3">{
                         s_card.map((item) => (
                             <Service_card img={item.img} title={item.title} disc={item.disc} />
                         ))
