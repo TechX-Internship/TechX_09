@@ -8,18 +8,18 @@ const Hero = () => {
       <div className="container">
         <div className={`${style.hero_main}`}>
           <div className={`${style.hero_left}`}>
-            <div>
-              <h2>  
+              <h2 className=''>  
                 Growlity Ready To Go For Growth With Sustainability?
               </h2>
-              <p className="">
-                Globally, we’re helping all industry sectors transform to reach Net Zero, balanced with Sustainable Development Goals.
+              <p className={`${style.hero_pera_1}`}>
+                Globally, we’re helping all industry sectors transform to reach Net Zero, balanced with Sustainable Development Goals.</p>
+              <p className={`${style.hero_pera_2}`}>
+                Globally, we’re helping all industry sectors transform.
               </p>
-              <Learn_more isTrue={true}/>
-              <div className={`${style.l_more}`}>
+              {/* <Learn_more className={`${style.l_more}`} isTrue={true}/> */}
+              <div className={``}>
                 <Learn_more isTrue={true}/>
               </div>
-            </div>
           </div>
         </div>
       </div>

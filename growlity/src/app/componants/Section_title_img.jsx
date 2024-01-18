@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import style from '../styles/section_title_img.module.css'
-import after_leaf from '../../../public/after_leaf.png'
+import after_leaf from '@/assets/image/after_leaf.png'
 
 const Section_title_img = ({title, isWhite}) => {
     return (

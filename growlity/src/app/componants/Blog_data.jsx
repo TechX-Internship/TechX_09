@@ -2,7 +2,7 @@ import React from 'react'
 import style from '../styles/our_blog.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import go_ahead from '../../../public/go_ahead.svg' 
+import go_ahead from '@/assets/image/go_ahead.svg' 
 
 const Blog_data = ({index, title, disc, isClass}) => {
     return (

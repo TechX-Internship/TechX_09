@@ -1,9 +1,9 @@
 import React from 'react'
 import Testimonials from './Testimonials'
 import style from '../styles/cust_say.module.css'
-import cust_1 from '../../../public/cust_1.png'
-import cust_2 from '../../../public/cust_2.png'
-import cust_3 from '../../../public/cust_3.png'
+import cust_1 from '@/assets/image/cust_1.png'
+import cust_2 from '@/assets/image/cust_2.png'
+import cust_3 from '@/assets/image/cust_3.png'
 
 const c_card = [
     {img: cust_1, post: "Executive Engineer", name: "Mike Torello", disc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."},

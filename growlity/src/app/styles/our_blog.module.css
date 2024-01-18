@@ -9,13 +9,13 @@
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.10);
 }
 .blog_1{
-    background-image: url(../../../public/blog_1.png);
+    background-image: url(../..//assets/image/blog_1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .blog_2{
-    background-image: url(../../../public/blog_2.png);
+    background-image: url(../..//assets/image/blog_2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

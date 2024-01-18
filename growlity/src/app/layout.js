@@ -10,22 +10,13 @@ import Footer from './componants/Footer';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Drowlity',
-  description: "Let's grow together",
+  title: 'Growlity',
+  description: "Let's grow together"
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* <Head>
-        <link rel="icon" href="../app/favicon/favicon.ico" sizes="any" />
-        <link
-          rel="icon"
-          href="../app/favicon/favicon.png"
-          type="image/png"
-          sizes="any"
-        />
-      </Head> */}
       <body className={inter.className}>
         <Header />
         {children}

@@ -3,10 +3,10 @@ import style from '../styles/globle_team.module.css'
 import Section_title_img from './Section_title_img'
 import Glob_card from './Glob_card'
 import Learn_more from './Learn_more'
-import member_1 from '../../../public/member_1.png'
-import member_2 from '../../../public/member_2.png'
-import member_3 from '../../../public/member_3.png'
-import member_4 from '../../../public/member_4.png'
+import member_1 from '@/assets/image/member_1.png'
+import member_2 from '@/assets/image/member_2.png'
+import member_3 from '@/assets/image/member_3.png'
+import member_4 from '@/assets/image/member_4.png'
 
 
 const g_card = [

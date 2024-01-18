@@ -1,14 +1,14 @@
 import React from 'react'
 import style from '../styles/footer.module.css'
 import Image from 'next/image'
-import icon from '../../../public/Favicon.png'
-import location from '../../../public/location.svg'
-import phone from '../../../public/phone.svg'
-import s_media_1 from '../../../public/s_media_1.png'
-import s_media_2 from '../../../public/s_media_2.png'
-import s_media_3 from '../../../public/s_media_3.png'
-import s_media_4 from '../../../public/s_media_4.png'
-import foot from '../../../public/foot.png'
+import icon from '@/assets/image/Favicon.png'
+import location from '@/assets/image/location.svg'
+import phone from '@/assets/image/phone.svg'
+import s_media_1 from '@/assets/image/s_media_1.png'
+import s_media_2 from '@/assets/image/s_media_2.png'
+import s_media_3 from '@/assets/image/s_media_3.png'
+import s_media_4 from '@/assets/image/s_media_4.png'
+import foot from '@/assets/image/foot.png'
 
 const Footer = () => {
     return (

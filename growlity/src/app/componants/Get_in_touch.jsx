@@ -3,7 +3,7 @@ import style from '../styles/get_in_touch.module.css'
 import Section_title_img from './Section_title_img'
 import Learn_more from './Learn_more'
 import Image from 'next/image'
-import get_in_touch_leaf from '../../../public/get_in_touch_leaf.png'
+import get_in_touch_leaf from '@/assets/image/get_in_touch_leaf.png'
 
 const Get_in_touch = () => {
     return (

@@ -3,8 +3,8 @@ import style from '../styles/about.module.css'
 import Section_title_img from './Section_title_img'
 import Learn_more from './Learn_more'
 import Image from 'next/image'
-import about from '../../../public/about_left.png'
-import about_img_right from '../../../public/about_img_right.png'
+import about from '@/assets/image/about_left.png'
+import about_img_right from '@/assets/image/about_img_right.png'
 
 const About = () => {
     return (

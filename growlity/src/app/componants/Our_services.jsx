@@ -2,10 +2,10 @@ import React from 'react'
 import style from '../styles/our_services.module.css'
 import Section_title_img from './Section_title_img'
 import Service_card from './Service_card'
-import card_1 from '../../../public/card_1.png'
-import card_2 from '../../../public/card_2.png'
-import card_3 from '../../../public/card_3.png'
-import card_4 from '../../../public/card_4.png'
+import card_1 from '@/assets/image/card_1.png'
+import card_2 from '@/assets/image/card_2.png'
+import card_3 from '@/assets/image/card_3.png'
+import card_4 from '@/assets/image/card_4.png'
 
 const s_card = [
     { img: card_1, title: "Strategy", disc: "We evolve an agreed framework to focus investment and drive performance, as well as engage internal and external stakeholders." },

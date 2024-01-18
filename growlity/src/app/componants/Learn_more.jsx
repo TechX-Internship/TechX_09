@@ -1,7 +1,7 @@
 import React from 'react'
 import style from '../styles/learn_more.module.css'
 import Image from 'next/image'
-import right_arrow from '../../../public/right_arrow.svg'
+import right_arrow from '@/assets/image/right_arrow.svg'
 import Link from 'next/link'
 
 const Learn_more = ({isTrue}) => {

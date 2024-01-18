@@ -2,7 +2,7 @@
 import React from 'react'
 import style from '../styles/header.module.css'
 import Image from 'next/image'
-import icon from '../../../public/Icon.jpg'
+import icon from '@/assets/image/Icon.jpg'
 import Header_nav_list from './Header_nav_list'
 import { usePathname } from 'next/navigation'
 

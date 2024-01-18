@@ -8,9 +8,9 @@ import Page_title from '../componants/Page_title'
 import About from '../componants/About'
 import Globle_team from '../componants/Globle_team'
 import Service_card from '../componants/Service_card'
-import abt_1 from '../../../public/abt_1.png'
-import abt_2 from '../../../public/abt_2.png'
-import abt_3 from '../../../public/abt_3.png'
+import abt_1 from '@/assets/image/abt_1.png'
+import abt_2 from '@/assets/image/abt_2.png'
+import abt_3 from '@/assets/image/abt_3.png'
 
 const s_card = [
     { img: abt_1, title: "Our Purpose", disc: "To create positive, sustainable development in the world." },

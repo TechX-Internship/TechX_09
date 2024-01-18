@@ -3,51 +3,97 @@
     padding-bottom: 0;
 }
 .hero_main {
-    display: flex;
-    background-image: url(../../../public/world.svg);
+    /* display: flex;  */
+    background-image: url(../..//assets/image/world.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right;
+    background-position: right bottom;
 }
-
-.hero_left {
-    width: 45%;
-    display: flex;
-    align-items: center;
+.hero_left{
+    padding-bottom: 1.545rem;
 }
-
 .hero_left h2 {
     text-align: start;
     color: #FFF;
-    
-    font-size: 64px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 80px;
-    margin-bottom: 1rem;
+    line-height: 1.6875rem;;
+    width: 12.3125rem;
+    margin-bottom: 0.31rem;
 }
 
 .hero_left p {
-    width: 85%;
     text-align: start;
     color: #FFF;
-    
-    font-size: 20px;
+    width: 10.5rem;
+    font-size: 0.8125rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px;
-    margin-bottom: 1.875rem;
+    line-height: 1rem;
+    margin-bottom: 0.94rem;
 }
-
-.l_more {
-    margin: 6.06rem 0 2rem 14.19rem;
+.hero_pera_1{
+    display: none;
 }
-
-.hero_right {
-    width: 55%
-}
-
 .hero_right Image {
     width: 100%;
     flex-shrink: 0;
+}
+
+@media(min-width:768px){
+    .hero_left h2 {
+      width: 60%;
+      font-size: 42px;
+      line-height: 54px;
+      margin-bottom: 0.655rem;
+    }
+    .hero_left p {
+      width: 45%;
+      font-size: 14px;
+      line-height: 1.28125rem;
+      margin-bottom: 1.4075rem;
+    }
+    .hero_pera_1{
+      display: block;
+    }
+    .hero_pera_2{
+      display: none;
+    }
+    .hero_left{
+        padding-bottom: 3.09rem;
+    }
+}
+
+@media(min-width:992px){
+    .hero_left h2 {
+      width: 45%;
+    }
+}
+
+@media(min-width:1200px){
+    .hero_left h2 {
+      width: 55%;
+      font-size: 64px;
+      line-height: 80px;
+      margin-bottom: 1rem;
+    }
+    .hero_left p {
+      width: 45%;
+      font-size: 20px;
+      line-height: 1.5625rem;
+      margin-bottom: 1.875rem;
+    }
+    .hero_pera_1{
+      display: block;
+    }
+    .hero_pera_2{
+      display: none;
+    }
+}
+
+@media(min-width:1400px){
+    .hero_left h2 {
+      width: 50%;
+    }
 }

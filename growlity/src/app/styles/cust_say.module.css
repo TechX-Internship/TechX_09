@@ -1,5 +1,6 @@
 .cust_say {
-    background-image: url(../../../public/cust_say.png);
+    background-image: url(../../assets/image/cust_say.png);
+    /* background-image: url(@/assets/image/cust_say.png); */
     background-repeat: no-repeat;
     background-size: cover;
 }
