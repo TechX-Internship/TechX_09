@@ -20,7 +20,7 @@
 .service_card{
     width: 100%;
     position: relative;
-    background-image: url(../..//assets/image/Service_card.svg);
+    background-image: url(../../../public/Service_card.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
